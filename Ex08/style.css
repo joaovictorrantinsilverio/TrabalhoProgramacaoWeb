@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: grey;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.produto {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+img {
+    width: 250px;
+    border-radius: 8px;
+}
+
+.descricao {
+    color: #555;
+}
+
+.preco {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* botão comprar */
+button {
+    padding: 10px 20px;
+    font-size: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    box-sizing: border-box;
+}
+
+/* efeito para responsividade*/
+button:hover {
+    background-color: #0056b3;
+}
