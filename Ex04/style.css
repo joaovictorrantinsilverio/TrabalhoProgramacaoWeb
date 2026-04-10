@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: grey;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.post-list {
+    list-style: square;
+    padding: 0;
+}
+
+/* container de cada post */
+.post {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    list-style-position: inside;
+}
+
+.data {
+    font-size: 90%;
+    color: gray;
+}
+
+/* leia mais */
+a {
+    color: blue;      
+}
