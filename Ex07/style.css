@@ -1,0 +1,9 @@
+body {
+    background: rgba(100, 100, 100, 0.7);
+    text-align: center;
+    color: aliceblue;
+}
+
+input {
+    border: 2px solid #000;
+}
