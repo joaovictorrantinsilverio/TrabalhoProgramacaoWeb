@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+/*Muda a cor do valor original*/
+.valorOriginal {
+    color: #8f8e8e;
+}
+
+/*Deixa tudo ordenadinho legal*/
+.listaOfertas {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*Cria a borda ao redor da imagem*/
+.borda {
+    background-color: white;
+    border: 1px solid #c7c7c7;
+    border-radius: 8px;
+    padding: auto;  /*Espaçamento interno*/
+    width: auto;
+    text-align: center;
+}
+
+/*Alterações na fonte*/
+.precoDesconto {
+    font-weight: bold;
+    font-size: 20px;
+}
