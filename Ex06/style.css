@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: grey;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* caixa das perguntas */
+details {
+    background: white;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* efeito quando passa o mouse */
+details:hover {
+    transform: scale(1.01);
+}
+
+/* Pergunta */
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Resposta */
+details p {
+    margin-top: 10px;
+    color: #555;
+}
