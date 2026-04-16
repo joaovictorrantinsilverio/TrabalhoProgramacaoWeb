@@ -1,5 +1,11 @@
+body {
+    font-family: Arial;
+    background-color: #2C3E50;
+}
+
 h1 {
     text-align: center;
+    color: aliceblue;
 }
 
 /*Muda a cor do valor original*/
@@ -8,7 +14,7 @@ h1 {
 }
 
 /*Deixa tudo ordenadinho legal*/
-.listaOfertas {
+.lista_ofertas {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -16,17 +22,23 @@ h1 {
 }
 
 /*Cria a borda ao redor da imagem*/
-.borda {
+.card {
     background-color: white;
     border: 1px solid #c7c7c7;
     border-radius: 8px;
-    padding: auto;  /*Espaçamento interno*/
-    width: auto;
+    padding: auto;  
+    width: 500px;
     text-align: center;
 }
 
+/*Imagem se adapta ao card*/
+.card img {
+    width: 100%;
+    height: auto;
+}
+
 /*Alterações na fonte*/
-.precoDesconto {
+.preco_desconto {
     font-weight: bold;
     font-size: 20px;
 }
