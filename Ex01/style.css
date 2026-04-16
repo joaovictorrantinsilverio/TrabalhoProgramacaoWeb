@@ -1,10 +1,17 @@
 body {
     background-image: url('download.jpg');
+    font-family: Arial;
     background-size: cover;
-    text-align: center;
-    color: aliceblue;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 97.7vh;  /* ← faz o body ocupar a altura toda da tela */
+    min-height: 97.7vh;
     margin: 0; 
+}
+
+.título {
+    color: aliceblue;
+}
+
+.parágrafo {
+    color: aliceblue;
 }
