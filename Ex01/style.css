@@ -10,8 +10,19 @@ body {
 
 .título {
     color: aliceblue;
+    text-align: center;
 }
 
 .parágrafo {
+    text-align: center;
     color: aliceblue;
+}
+
+.parágrafo {
+    background-color: #2C3E50;
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
 }
