@@ -1,11 +1,37 @@
 body {
-    background: rgba(0, 0, 0, 0.7);
+    font-family: Arial;
+    background-color: #F5F7FA;
     text-align: center;
-    color: aliceblue;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
+}
+
+.grid-item {
+    border: 1px solid aliceblue;
+    border-radius: 15px;
+    background-color: #2C3E50;
+}
+
+.grid-item img {
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 200px;
+    height: auto;
+}
+
+.grid-item p {
+    padding: 8px;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    color: aliceblue;
 }
