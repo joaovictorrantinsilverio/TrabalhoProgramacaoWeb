@@ -2,6 +2,16 @@ body {
     font-family: Arial;
     background-color: #F5F7FA;
     text-align: center;
+    padding: 0 15px;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+    color: aliceblue;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
 }
 
 input {
@@ -15,22 +25,17 @@ input {
 }
 
 .container {
+    margin: 50px auto;
     background-color: #2C3E50;
-    width: 100%;
+    width: 90%;
     max-width: 600px;
-    border-radius: 8px;
+    border-radius: 15px;
     color: aliceblue;
-    margin: auto;
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 15px;
     box-shadow: 0px 10px 20px black;
-}
-
-label {
-    font-weight: bold;
-    text-align: left;
 }
 
 .botao_entrar {
@@ -42,11 +47,4 @@ label {
     font-size: large;
     display: block;
     margin: auto;
-}
-
-label {
-    color: aliceblue;
-    display: block;
-    margin-bottom: 5px;
-    text-align: left;
 }
