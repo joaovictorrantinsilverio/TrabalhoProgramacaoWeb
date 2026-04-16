@@ -9,10 +9,27 @@
 
 </head>
 <body>
-    <h1>Exercício 05</h1>
+    <h1>Formulário de contato</h1>
 
-    <form action="" class="shadowBox">
-        <textarea class="caixaMensagem" name="mensagem" placeholder="Digite sua mensagem..."></textarea>
+    <form action="#" class="card">
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="text" id="e-mail" name="e-mail_usuario" placeholder="Digite seu e-mail..." required>
+        </div>
+
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="text" id="senha" name="senha_usuario" placeholder="Digite sua senha..." required>
+        </div>
+
+        <div>
+            <Label for="Mensagem">Mensagem:</Label>
+            <textarea name="Mensagem" id="mensagem" rows="10" cols="50" placeholder="Digite sua mensagem..."></textarea>
+        </div>
+
+        <div>
+            <button class="botao_enviar">Enviar</button>
+        </div>
     </form>
     
 </body>
