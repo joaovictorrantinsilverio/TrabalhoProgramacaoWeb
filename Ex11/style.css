@@ -1,14 +1,21 @@
 body {
-    background-color: #1a1a2e;
-    color: aliceblue;
-}
-
-h1 {
-    text-align: 20px;
+    font-family: Arial;
+    background-color: #F5F7FA;
+    text-align: center;
 }
 
 .lista {
     list-style-position: inside;
-    text-indent: -20px;
+    text-indent: -50px;
+    color: aliceblue;
+    text-align: left;
 }
 
+.container {
+    background-color: #2C3E50;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    max-width: 400px;
+}
